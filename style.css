@@ -45,11 +45,34 @@ html body div#profile ul#links li a{
 }
 
 @media (max-width:600px) {
+  html body {
+    font-size:1em;
+  }
+
   html body div#profile {
-    padding:0;
+    padding:0px 20px 20px 20px;
     top:0;
     left:0;
     width:100%;
-    background-color:rgba(255, 255, 255, 0.75);
+    background-color:rgba(255, 255, 255, 0.55);
+    box-sizing: content-box;
+  }
+
+  html body h1#name {
+    line-height:1.5em;
+    font-size:1.5em;
+  }
+
+  html body div#profile p#bio {
+    width:85%;
+  }
+
+  html body div#profile ul#links li.icon{
+    background-position: 0;
+  }
+
+  html body div#profile ul#links li a {
+    font-size:.8em;
+    line-height:18px;
   }
 }
