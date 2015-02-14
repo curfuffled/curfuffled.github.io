@@ -14,7 +14,7 @@ html body div#profile {
   position:absolute;
   top:10%;
   left:10%;
-  background-color:rgba(255, 255, 255, 0.36);;
+  background-color:rgba(255, 255, 255, 0.36);
   padding:20px 20px 20px 20px;
 }
 
@@ -42,4 +42,14 @@ html body div#profile ul#links li.icon {
 html body div#profile ul#links li a{
   margin-left:20px;
   line-height:32px;
+}
+
+@media (max-width:600px) {
+  html body div#profile {
+    padding:0;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:rgba(255, 255, 255, 0.75);
+  }
 }
